@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 40px;
+}
+
+.my {
+    color: white;
+}
+
+.blogs {
+    color: lime;
+}
+
+#title {
+    height: 2.5rem;
+    width: 35rem;
+    font-size: 1.5rem;
+    margin: 2rem;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 25px;
+}
+
+#desc {
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 25px;
+}
+
+.submit {
+    border-radius: 15px;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: lime;
+}
+
+.list {
+    background-color: linen;
+    width: 80rem;
+    font-size: 1.4rem;
+    margin: 30px;
+}
+
+.list th {
+    background-color: gray;
+    height: 3rem;
+    border-bottom: black;
+}
+
+.list tr {
+    height: 2.5rem;
+}
+
+a {
+    border-radius: 15px;
+    height: 1.5rem;
+    width: 5rem;
+    font-size: 1.1rem;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.update {
+    color: green;
+}
+
+.delete {
+    color: red;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(209, 209, 209);
+}

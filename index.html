@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        My Blogs App
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><span class="my">My</span><span class="blogs"> Blogs</span></h1>
+        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+            <div>
+                <label></label><label class="validation-error hide" id="titleValidationError"></label>
+                <input type="text" name="title" id="title" placeholder="Blog Title!!!" required>
+            </div>
+            <div>
+                <label></label>
+                <textarea name="desc" id="desc" placeholder="Blog Description..." rows="8" cols="50" required></textarea>
+            </div>
+            <div class="form-action-buttons">
+                <button type="submit" class="submit">Add Blog</button>
+            </div>
+        </form>
+        <table class="list" id="my_blogs">
+            <thead>
+                <tr>
+                    <th style="width: 30%;">Title</th>
+                    <th style="width: 50%;">Blog</th>
+                    <th style="width: 20%;">Options</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
